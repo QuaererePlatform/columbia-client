@@ -1,10 +1,11 @@
 #!/usr/bin/env python
-"""Setup for the columbia micro-service, part of the Quaerere Platform
+"""Setup for the python client of the columbia micro-service.
+Part of the Quaerere Platform.
 """
 import os
 import sys
 
-from setuptools import find_packages, setup
+from setuptools import setup
 from setuptools.command.install import install
 
 PROJECT_NAME = 'quaerere-columbia-client'

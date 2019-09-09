@@ -1,7 +1,8 @@
 __all__ = ['CCDataResource', 'CCIndexesResource', 'CCScansResource']
 
 from quaerere_base_client.resource import Resource
-from columbia_common.schemas import CCDataSchema, CCIndexesSchema, CCScansSchema
+from columbia_common.schemas.api_v1 import (
+    CCDataSchema, CCIndexesSchema, CCScansSchema)
 
 
 class CCDataResource(Resource):
